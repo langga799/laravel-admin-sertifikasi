@@ -18,7 +18,7 @@
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Dashboard</h1>
+                        <h1>Halaman Dashboard</h1>
                     </div>
                 </div>
             </div>
@@ -47,10 +47,10 @@
                             <div class="card-body">
                                 <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
                                     <thead>
-                                        <tr> 
+                                        <tr>
                                             <th>#</th>
                                             <th>Nama</th>
-                                            <th>Status</th> 
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -61,7 +61,7 @@
                                             <td>{{$dk->status_kategori}}</td>
                                         </tr>
                                         @endforeach
-                                       
+
                                     </tbody>
                                 </table>
                             </div>
